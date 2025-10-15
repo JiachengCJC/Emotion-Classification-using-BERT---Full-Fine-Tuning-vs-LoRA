@@ -18,20 +18,34 @@ The project explores how different fine-tuning strategies affect model performan
 
 ---
 
+## 📄 Run Output
+To make this project easy to review, a complete **run log (with all code cells executed and outputs displayed)** has been exported to PDF:
+
+**File:** `run_output.pdf`
+
+This file shows:
+- The full fine-tuning and LoRA training processes
+- Loss curves, evaluation metrics, and plots
+- Example predictions using `multilevel_pipeline`
+
+You can open it directly on GitHub or download it for offline viewing.
+
+---
+
 ## 🧩 Repository Structure
 ```
 emotion-classification-finetuning/
 │
-├── full_finetuning.ipynb       ← Notebook for full fine-tuning experiment
-├── lora_finetuning.ipynb       ← Notebook for LoRA fine-tuning experiment
-├── requirements.txt            ← List of required Python packages
-├── report/
-│   └── assignment3_report.pdf  ← Full report with results and analysis
-└── figures/
-    ├── datasset_desc.png
-    ├── 1_full.jpg
-    ├── 2_lora.jpg
-    └── etc.
+├── full_finetuning.ipynb          ← Full fine-tuning notebook
+├── lora_finetuning.ipynb          ← LoRA fine-tuning notebook
+├── run_output.                    ← PDF showing all code, outputs, and results
+    ├── full_finetuning.pdf
+    ├── full_finetuning_10epochs.pdf
+    ├── lora_finetuning.pdf
+    └── lora_finetuning_10epochs.pdf
+├── requirements.txt               ← Python dependencies
+└── report_assg3.pdf               ← Final written report
+
 ```
 
 ---
