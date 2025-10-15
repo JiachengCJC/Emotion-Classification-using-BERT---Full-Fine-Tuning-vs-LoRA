@@ -21,7 +21,7 @@ The project explores how different fine-tuning strategies affect model performan
 ## 📄 Run Output
 To make this project easy to review, a complete **run log (with all code cells executed and outputs displayed)** has been exported to PDF:
 
-**Folder:** `run_output`(run_output)
+**Folder:** [run_output](run_output)
 
 This folder includes:
 - The full fine-tuning and LoRA training processes
@@ -66,7 +66,7 @@ emotion-classification-finetuning/
    pip install -r requirements.txt
    ```
 
-3. Open either notebook in **Jupyter Notebook / VSCode / JupyterLab**:
+3. Open either notebook in **Jupyter Notebook**:
    - `full_finetuning.ipynb`
    - `lora_finetuning.ipynb`
 
