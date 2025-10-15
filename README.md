@@ -21,9 +21,9 @@ The project explores how different fine-tuning strategies affect model performan
 ## 📄 Run Output
 To make this project easy to review, a complete **run log (with all code cells executed and outputs displayed)** has been exported to PDF:
 
-**File:** `run_output.pdf`
+**Folder:** `run_output`(run_output)
 
-This file shows:
+This folder includes:
 - The full fine-tuning and LoRA training processes
 - Loss curves, evaluation metrics, and plots
 - Example predictions using `multilevel_pipeline`
@@ -55,10 +55,10 @@ emotion-classification-finetuning/
 ### 🖥️ Option 1 — Run Locally (Laptop / PC)
 > 💡 Tested on **Python 3.10.11** with NVIDIA GeForce RTX 3050 Ti GPU.
 
-1. Clone this repository:
+1. **Clone this repository:**
    ```bash
-   git clone https://github.com/<your-username>/emotion-classification-finetuning.git
-   cd emotion-classification-finetuning
+   git clone https://github.com/JiachengCJC/Emotion-Classification-using-BERT---Full-Fine-Tuning-vs-LoRA.git
+   cd Emotion-Classification-using-BERT---Full-Fine-Tuning-vs-LoRA
    ```
 
 2. Install the required packages:
@@ -97,7 +97,7 @@ After training completes, you can test the model with your own text.
 In the notebook:
 ```python
 result = multilevel_pipeline("I hate you, but I also like you")  # Cell 17
-print(result)  # Output appears in Cell 18
+print(predicted_emotions)  # Output appears in Cell 18
 ```
 
 The model will output the predicted emotion labels and their confidence scores.
@@ -123,7 +123,7 @@ The model will output the predicted emotion labels and their confidence scores.
 
 ## 🧾 Citation
 If you use this work, please cite:
-> Chung, Jia Cheng. *Assignment 3: Fine-Tuning Pretrained Transformers for Emotion Classification — A Comparison Between Full and LoRA Fine-Tuning*, 2025.
+> Chung, Jia Cheng. *Fine-Tuning Pretrained Transformers for Emotion Classification — A Comparison Between Full and LoRA Fine-Tuning*, 2025.
 
 ---
 
