@@ -61,16 +61,23 @@ emotion-classification-finetuning/
    cd Emotion-Classification-using-BERT---Full-Fine-Tuning-vs-LoRA
    ```
 
-2. Install the required packages:
+2. **(Recommended)** Create and activate a virtual environment (Python 3.10):
+   ```bash
+   python3.10 -m venv venv
+   source venv/bin/activate        # for macOS/Linux
+   venv\Scripts\activate           # for Windows
+   ```
+
+3. **Install the required packages:**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Open either notebook in **Jupyter Notebook**:
+4. **Open either notebook in Jupyter Notebook:**
    - `full_finetuning.ipynb`
    - `lora_finetuning.ipynb`
 
-4. Click **Run All** — this will:
+5. **Click "Run All"** — this will:
    - Load the dataset  
    - Tokenize text  
    - Train and evaluate the model  
